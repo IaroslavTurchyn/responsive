@@ -79,8 +79,11 @@
 } 
 
 @media screen and (max-width:720px) {
+    body{
+        margin: 0 auto;
+    }
     .section_five { 
-        max-width: 720px;
+        max-width: 620px;
         width: 100%;
         margin: 0 auto;
         background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%) ;
