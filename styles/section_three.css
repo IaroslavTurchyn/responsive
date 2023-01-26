@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section_three{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 217px ;
+    padding-left: 162px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+}
+
+.section_three h3 {
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+}
+
+.section_three h1 {
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    margin: 27px 0px;
+}
+
+.section_three p  {
+    width: 480px;
+    height: 139px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4F4F4F;
+    margin-bottom: 54px;
+}
+
+.section_three a {
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    text-decoration: none;
+    /* margin-bottom: 171px; */
+}
+
+.round1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 1px dashed #00ADEE;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+    top:173px;
+    left: 877px;
+}
+
+.round2 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border: 1px dashed #00ADEE;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+    top:72px;
+    left: 779px;
+}
+/* не розумію чому тільки  коло тікає при зміні масштабу */
+.round3 {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    border: 1px solid #00ADEE;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+    right: -33px;
+    top: -34px;
+  
+    
+}
+
+.round4 {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid #00ADEE;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+    left: 570px;
+    top: -133px;
+    opacity: 0.55;
+    
+}
+
+.round5{
+    display: block;
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    border: 1px solid #00ADEE;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+    left: 470px;
+    top: -224px;
+    opacity: 0.1;
+    
+}
+.mobile_phone {
+    position: absolute;
+    top: 85px;
+    left: 876px;
+}
+
+.phone_icone {
+    width: 91px;
+    height: 91px;
+    position: absolute;
+    top:480px ;
+    left: 1164px ;
+}
+
+.ring {
+    position: absolute;
+    top: 156px;
+    right: 260px;
+}
+.dote {
+    position: absolute;
+    top: 509px;
+    right: 579px;
+}
+
+@media screen and (max-width:720px) {
+    .section_three{
+        max-width: 720px;
+        width: 100%;
+        
+        margin: 0 auto;
+        padding-top: 217px ;
+        padding-left: 162px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
+        position: relative;
+        overflow: hidden;
+    }
+    
+}

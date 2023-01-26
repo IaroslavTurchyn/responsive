@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section_five {  
+    width: 100%;
+    max-width: 1440px;
+    /* height: 431px; */
+    margin: 0 auto;
+    background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%) ;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4F4F4F;
+    text-align: center;
+    padding-top: 68px;
+    padding-bottom: 47px;
+}
+
+.slider_title{
+    font-size: 28px;
+    line-height: 37px;
+    margin-bottom: 63px;
+}
+
+.slider {
+    width: 100%;
+    position: relative;
+}
+ .slider_child {
+    width: 309px !important;
+    height: 161px;
+    padding-top: 15px;
+    padding-left: 17px;
+    padding-right: 13px ;
+    display: flex;
+    margin-right: 36px;
+    background: #FFFFFF;
+    border: 1px solid #828282;
+    border-radius: 4px;
+}
+
+.slider_child_author{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.twitter_icon{
+    width: 15px;
+    height: 12px;
+}
+.author {
+    display: flex;
+}
+
+
+.slider_child p {
+    margin-top: 14px;
+    width: 279px;
+    height: 74px;
+    text-align: justify;    
+    justify-self: center;
+    
+
+}
+.author_name{ 
+    align-self:center;
+    margin-left: 11px;
+}
+
+
+.slick-slider .slick-track, .slick-slider .slick-list{
+    margin-bottom: 47px;
+    background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
+} 
+
+@media screen and (max-width:720px) {
+    .section_five { 
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto;
+        background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%) ;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4F4F4F;
+        text-align: center;
+        padding-top: 68px;
+    }
+
+    .slider_child {
+        flex-basis: 80%;
+    }
+}
+

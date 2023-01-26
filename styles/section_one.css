@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section_one { 
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background: #F4F6F9;
+    font-family: 'Lato';
+    font-style: normal;
+    padding: 63px 0px 164px 163px;
+    position: relative;
+     
+}
+
+.info_section{
+    z-index: 1;
+}
+.Logo{
+    display: flex;
+}
+.h1_sect_one{
+    width: 546px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    color: #333333;
+    margin-top: 133px;
+    margin-bottom: 30px; 
+}
+
+.p_sect_one{
+    width: 453px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4F4F4F;
+    margin-bottom: 50px;
+}
+
+.download_links{
+    display: flex;
+
+}
+.down_android,
+.down_apple{
+    width: 156px;
+    height: 47px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.background_image{
+    width: 783px;
+    height: 668px;
+    position: absolute;
+    right: 0;
+    background-size: contain;
+    top: 0px;
+    z-index: 0;
+  
+   
+}
+
+@media screen  and (max-width:720px)
+{
+    
+    .section_one { 
+        padding: 0;
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+        align-items: center;
+        padding-top: 34px;
+          
+    }
+    .info_section{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    }
+    .Logo {
+        display: flex;
+        align-items: center;
+        width: 99px;
+        height: 32px;
+        margin: 0;
+    }
+    
+    .h1_sect_one{
+        width: 320px;
+        height: 119px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #333333;
+        margin-top: 86px;
+    }
+
+    .p_sect_one{
+        width: 320px;
+        height: 70px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        margin-bottom: 55px;
+       
+    }
+    .background_image{
+        display: none;
+    }
+    .download_links{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 55px;
+    }
+}

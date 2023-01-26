@@ -1,0 +1,154 @@
+.section_four {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background-color: #00ADEE;;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.title_section_four  h1 {
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.info_sect_four {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 90px;
+    row-gap: 50px;
+    margin: 60px auto;
+    
+   
+}
+
+.icons {
+    display: block;
+}
+
+.first p {
+    width: 311px;
+    height: 47px;
+    text-align: justify;
+}
+
+.second p{
+    width: 311px;
+    height: 93px;
+    text-align: justify;
+}
+
+.third p{
+    width: 311px;
+    height: 93px;
+    text-align: justify;
+}
+
+.fourth p{
+    width: 311px;
+    height: 93px;
+    text-align: justify;   
+
+}
+
+.fifth p{
+    width: 311px;
+    height: 93px;
+    text-align: justify;   
+
+}
+
+.sixth p{
+    width: 311px;
+    height: 70px;
+    text-align: justify;   
+
+}
+
+.seventh p{
+    width: 311px;
+    height: 70px;
+    text-align: justify; 
+}
+
+.eighth p {
+     width: 311px;
+    height: 47px;
+    text-align: justify; 
+}
+
+.ninghth p {
+    width: 311px;
+    height: 70px;
+    text-align: justify; 
+}
+
+@media screen and ( max-width: 720px) {
+    .section_four {
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto !important;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4F4F4F;
+        display: flex;
+        flex-direction: column;
+        
+        padding-top: 75px;
+        align-items: center;
+        background-color: #FAFAFA;
+    }
+
+    .title_section_four {
+        font-size: 28px;
+        line-height: 37px;
+        width: 318px;
+        height: 74px;
+    }
+
+    .info_sect_four {
+        display: flex;
+        flex-direction: column;
+        text-align: center !important;
+    }
+    .icons {
+        background: #00ADEE;
+        width: 36.67px;
+        height: 30px;
+        display: flex;
+        align-self: center !important;
+        margin-bottom: 15px;
+       
+        
+    }
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth,
+    .sixth,
+    .seventh,
+    .eighth,
+    .ninghth {
+        display: flex;
+        flex-direction: column;
+    }
+    .first p,
+    .second p,
+    .third p {
+       text-align: center;
+    }
+}
+
+
